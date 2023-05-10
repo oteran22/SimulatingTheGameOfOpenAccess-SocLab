@@ -1,0 +1,1695 @@
+<Organisation name="OpenVsTollAccessToJournals" description="" date="2021-10-13">
+	<SimulationParams>
+		<nbRuns>5</nbRuns>
+		<nbSteps>200000</nbSteps>
+		<simulationDescription></simulationDescription>
+		<lastSimuPath>C:\Users\Oswaldo Teran\Documents\OpenVsTollAccessToJournals_Simulation_2021.09.27_10.41</lastSimuPath>
+	</SimulationParams>
+	<SensitivityParams>
+		<nbExperiences>10</nbExperiences>
+		<sensitivityDescription></sensitivityDescription>
+		<lastSensiPath>null</lastSensiPath>
+		<parameters>
+
+		</parameters>
+	</SensitivityParams>
+	<Actors>
+		<Actor name="Academics" description="">
+			<Initial>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Initial>
+			<Current>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>0.2175515225829468</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Current>
+			<CurrentMin>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMin>
+			<CurrentMax>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMax>
+		</Actor>
+		<Actor name="Administrators" description="">
+			<Initial>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Initial>
+			<Current>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>0.21966934232129431</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Current>
+			<CurrentMin>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMin>
+			<CurrentMax>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMax>
+		</Actor>
+		<Actor name="Funders" description="">
+			<Initial>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Initial>
+			<Current>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>0.22277417763689636</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Current>
+			<CurrentMin>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMin>
+			<CurrentMax>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMax>
+		</Actor>
+		<Actor name="Publishers" description="">
+			<Initial>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Initial>
+			<Current>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>0.22237826220549603</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Current>
+			<CurrentMin>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMin>
+			<CurrentMax>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMax>
+		</Actor>
+		<Actor name="Politicians" description="">
+			<Initial>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Initial>
+			<Current>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>0.21451560415221316</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</Current>
+			<CurrentMin>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMin>
+			<CurrentMax>
+				<scope>1.0</scope>
+				<oblivion>1.0</oblivion>
+				<reward>7.0</reward>
+				<typeOfRules>1.0</typeOfRules>
+				<repartitionPourcentage>0.5</repartitionPourcentage>
+				<tenacity>7.0</tenacity>
+				<reactivity>4.0</reactivity>
+				<MoralSensibility>0.0</MoralSensibility>
+				<actionRange>2.0</actionRange>
+				<evaluationCriterium>0.0</evaluationCriterium>
+			</CurrentMax>
+		</Actor>
+	</Actors>
+	<Relations>
+		<Relation name="PublishOA" description="" controller="Academics">
+			<Initial>
+				<termsOfExchange>0.0</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Initial>
+			<Current>
+				<termsOfExchange>8.199999999999996</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Current>
+			<Interpretations>
+			</Interpretations>
+		</Relation>
+		<Relation name="SupportOA" description="" controller="Administrators">
+			<Initial>
+				<termsOfExchange>0.0</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Initial>
+			<Current>
+				<termsOfExchange>0.9999999999999969</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Current>
+			<Interpretations>
+			</Interpretations>
+		</Relation>
+		<Relation name="DemandOAPublications" description="" controller="Funders">
+			<Initial>
+				<termsOfExchange>0.0</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Initial>
+			<Current>
+				<termsOfExchange>7.600000000000003</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Current>
+			<Interpretations>
+			</Interpretations>
+		</Relation>
+		<Relation name="GrantOA" description="" controller="Publishers">
+			<Initial>
+				<termsOfExchange>0.0</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Initial>
+			<Current>
+				<termsOfExchange>-1.0999999999999885</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Current>
+			<Interpretations>
+			</Interpretations>
+		</Relation>
+		<Relation name="DemandOA" description="" controller="Politicians">
+			<Initial>
+				<termsOfExchange>0.0</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Initial>
+			<Current>
+				<termsOfExchange>5.099999999999999</termsOfExchange>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<frequency>1.0</frequency>
+			</Current>
+			<Interpretations>
+			</Interpretations>
+		</Relation>
+	</Relations>
+	<Depends>
+		<Depend Actor="Academics" Relation="PublishOA">
+			<stake description="">2.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>quadratic2</type>
+				<params>
+					<a>-88.0</a>
+					<b>-10.0</b>
+					<c>5.0</c>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>5.0</maxValue>
+				<minValue>-8.968307796699136</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>quadratic2</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Academics" Relation="SupportOA">
+			<stake description="">0.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>Default</type>
+				<params>
+					<a>0.0</a>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>0.0</maxValue>
+				<minValue>0.0</minValue>
+				<maxValueTE>-10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>Default</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Academics" Relation="DemandOAPublications">
+			<stake description="">2.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>linear</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Academics" Relation="GrantOA">
+			<stake description="">3.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name></name>
+			</effect>
+		</Depend>
+		<Depend Actor="Academics" Relation="DemandOA">
+			<stake description="">2.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>quadratic2</type>
+				<params>
+					<a>86.0</a>
+					<b>7.0</b>
+					<c>-10.0</c>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-7.0</minValueTE>
+				<name>quadratic2</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Administrators" Relation="PublishOA">
+			<stake description="">0.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>Default</type>
+				<params>
+					<a>0.0</a>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>0.0</maxValue>
+				<minValue>0.0</minValue>
+				<maxValueTE>-10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>Default</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Administrators" Relation="SupportOA">
+			<stake description="">3.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>quadratic2</type>
+				<params>
+					<a>-88.0</a>
+					<b>-10.0</b>
+					<c>5.0</c>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>5.0</maxValue>
+				<minValue>-8.968307796699136</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>quadratic2</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Administrators" Relation="DemandOAPublications">
+			<stake description="">0.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>linear</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Administrators" Relation="GrantOA">
+			<stake description="">3.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name></name>
+			</effect>
+		</Depend>
+		<Depend Actor="Administrators" Relation="DemandOA">
+			<stake description="">3.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>quadratic2</type>
+				<params>
+					<a>86.0</a>
+					<b>7.0</b>
+					<c>-10.0</c>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-7.0</minValueTE>
+				<name>quadratic2</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Funders" Relation="PublishOA">
+			<stake description="">2.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>linear</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Funders" Relation="SupportOA">
+			<stake description="">0.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>Default</type>
+				<params>
+					<a>0.0</a>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>0.0</maxValue>
+				<minValue>0.0</minValue>
+				<maxValueTE>-10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>Default</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Funders" Relation="DemandOAPublications">
+			<stake description="">3.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>CS2F</type>
+				<params>
+					<amplitude>-10.0</amplitude>
+					<y_position>-1.0</y_position>
+					<slope>5.0</slope>
+					<x_position>5.0</x_position>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>8.988944427261528</maxValue>
+				<minValue>-9.48283639957513</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>CS2F</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Funders" Relation="GrantOA">
+			<stake description="">1.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>linear</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Funders" Relation="DemandOA">
+			<stake description="">3.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>quadratic2</type>
+				<params>
+					<a>86.0</a>
+					<b>7.0</b>
+					<c>-10.0</c>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-7.0</minValueTE>
+				<name>quadratic2</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Publishers" Relation="PublishOA">
+			<stake description="">1.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>-10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>-10.0</maxValueTE>
+				<minValueTE>10.0</minValueTE>
+				<name></name>
+			</effect>
+		</Depend>
+		<Depend Actor="Publishers" Relation="SupportOA">
+			<stake description="">1.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>-10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>-10.0</maxValueTE>
+				<minValueTE>10.0</minValueTE>
+				<name>linear</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Publishers" Relation="DemandOAPublications">
+			<stake description="">1.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>-10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>-10.0</maxValueTE>
+				<minValueTE>10.0</minValueTE>
+				<name>linear</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Publishers" Relation="GrantOA">
+			<stake description="">4.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>quadratic</type>
+				<params>
+					<a>-1.0</a>
+					<b>-10.0</b>
+					<c>7.0</c>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>9.5</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>-5.0</maxValueTE>
+				<minValueTE>9.0</minValueTE>
+				<name>quadratic</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Publishers" Relation="DemandOA">
+			<stake description="">1.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>quadratic</type>
+				<params>
+					<a>-1.0</a>
+					<b>-10.0</b>
+					<c>7.0</c>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>9.5</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>-5.0</maxValueTE>
+				<minValueTE>9.0</minValueTE>
+				<name>quadratic</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Politicians" Relation="PublishOA">
+			<stake description="">2.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>linear</type>
+				<params>
+					<a>10.0</a>
+					<b>0.0</b>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>linear</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Politicians" Relation="SupportOA">
+			<stake description="">0.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>Default</type>
+				<params>
+					<a>0.0</a>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>0.0</maxValue>
+				<minValue>0.0</minValue>
+				<maxValueTE>-10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>Default</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Politicians" Relation="DemandOAPublications">
+			<stake description="">3.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>CS2F</type>
+				<params>
+					<amplitude>-10.0</amplitude>
+					<y_position>-1.0</y_position>
+					<slope>5.0</slope>
+					<x_position>5.0</x_position>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>8.988944427261528</maxValue>
+				<minValue>-9.48283639957513</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>CS2F</name>
+			</effect>
+		</Depend>
+		<Depend Actor="Politicians" Relation="GrantOA">
+			<stake description="">1.0</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>quadratic2</type>
+				<params>
+					<a>-84.0</a>
+					<b>-4.0</b>
+					<c>10.0</c>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>10.0</maxValue>
+				<minValue>-10.0</minValue>
+				<maxValueTE>4.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name></name>
+			</effect>
+		</Depend>
+		<Depend Actor="Politicians" Relation="DemandOA">
+			<stake description="">3.5</stake>
+			<fuzzyStake description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzyStake>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+			<effect description="">
+				<type>CS2F</type>
+				<params>
+					<amplitude>-10.0</amplitude>
+					<y_position>-1.0</y_position>
+					<slope>5.0</slope>
+					<x_position>5.0</x_position>
+				</params>
+				<lowerBound>-10.0</lowerBound>
+				<upperBound>10.0</upperBound>
+				<step>0.1</step>
+				<maxValue>8.988944427261528</maxValue>
+				<minValue>-9.48283639957513</minValue>
+				<maxValueTE>10.0</maxValueTE>
+				<minValueTE>-10.0</minValueTE>
+				<name>CS2F</name>
+			</effect>
+		</Depend>
+	</Depends>
+	<ActorActors>
+		<ActorActor  ActorSource="Academics" ActorTarget="Academics">
+			<solidarity description="">1.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Academics" ActorTarget="Administrators">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Academics" ActorTarget="Funders">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Academics" ActorTarget="Publishers">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Academics" ActorTarget="Politicians">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Administrators" ActorTarget="Academics">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Administrators" ActorTarget="Administrators">
+			<solidarity description="">0.9</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Administrators" ActorTarget="Funders">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Administrators" ActorTarget="Publishers">
+			<solidarity description="">0.1</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Administrators" ActorTarget="Politicians">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Funders" ActorTarget="Academics">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Funders" ActorTarget="Administrators">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Funders" ActorTarget="Funders">
+			<solidarity description="">1.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Funders" ActorTarget="Publishers">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Funders" ActorTarget="Politicians">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Publishers" ActorTarget="Academics">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Publishers" ActorTarget="Administrators">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Publishers" ActorTarget="Funders">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Publishers" ActorTarget="Publishers">
+			<solidarity description="">1.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Publishers" ActorTarget="Politicians">
+			<solidarity description="">0.0</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Politicians" ActorTarget="Academics">
+			<solidarity description="">0.1</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Politicians" ActorTarget="Administrators">
+			<solidarity description="">0.1</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Politicians" ActorTarget="Funders">
+			<solidarity description="">0.1</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Politicians" ActorTarget="Publishers">
+			<solidarity description="">0.1</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+		<ActorActor  ActorSource="Politicians" ActorTarget="Politicians">
+			<solidarity description="">0.6</solidarity>
+			<fuzzySolidarity description="">
+				<min>0.0</min>
+				<max>0.0</max>
+			</fuzzySolidarity>
+			<sensibilityAnalysis>
+				<min>0.0</min>
+				<max>0.0</max>
+			</sensibilityAnalysis>
+		</ActorActor>
+	</ActorActors>
+	<RelationRelations>
+		<RelationRelation RelationSource="PublishOA" RelationTarget="PublishOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="PublishOA" RelationTarget="SupportOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="PublishOA" RelationTarget="DemandOAPublications" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="PublishOA" RelationTarget="GrantOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="PublishOA" RelationTarget="DemandOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="SupportOA" RelationTarget="PublishOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="SupportOA" RelationTarget="SupportOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="SupportOA" RelationTarget="DemandOAPublications" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="SupportOA" RelationTarget="GrantOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="SupportOA" RelationTarget="DemandOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOAPublications" RelationTarget="PublishOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOAPublications" RelationTarget="SupportOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOAPublications" RelationTarget="DemandOAPublications" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOAPublications" RelationTarget="GrantOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOAPublications" RelationTarget="DemandOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="GrantOA" RelationTarget="PublishOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="GrantOA" RelationTarget="SupportOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="GrantOA" RelationTarget="DemandOAPublications" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="GrantOA" RelationTarget="GrantOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="GrantOA" RelationTarget="DemandOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOA" RelationTarget="PublishOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOA" RelationTarget="SupportOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOA" RelationTarget="DemandOAPublications" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOA" RelationTarget="GrantOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+		<RelationRelation RelationSource="DemandOA" RelationTarget="DemandOA" Description="">
+			<bminFunction>
+				<type>DefaultMin</type>
+				<params>
+					<a>-10.0</a>
+				</params>
+				<name>DefaultMin</name>
+			</bminFunction>
+			<bmaxFunction>
+				<type>DefaultMax</type>
+				<params>
+					<a>10.0</a>
+				</params>
+				<name>DefaultMax</name>
+			</bmaxFunction>
+		</RelationRelation>
+	</RelationRelations>
+	<StateAnalysis>
+		<UserStates>
+		</UserStates>
+	</StateAnalysis>
+</Organisation>
